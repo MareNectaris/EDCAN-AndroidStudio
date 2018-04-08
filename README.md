@@ -1,14 +1,14 @@
-EDCAN-AndroidStudio
+# EDCAN-AndroidStudio
 
-===================
+----
 
-개요
+##개요
 
 ----
 
 EDCAN Atelier 과정 중 하나인 Android Studio 코드를 매 차시 GitHub에 업로드합니다.
 
-브랜치
+##브랜치
 
 ----
 
