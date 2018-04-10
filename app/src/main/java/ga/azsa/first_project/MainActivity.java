@@ -1,5 +1,6 @@
 package ga.azsa.first_project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -11,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textView;
     EditText editText;
-    Button button;
+    TextView button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,11 +21,12 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.output);
         editText = findViewById(R.id.input);
         button = findViewById(R.id.copyBtn);
-
-        //
     }
     public void click(View v){
-        String text = editText.getText().toString();
-        textView.setText(text);
+        Intent intent = new Intent(getApplicationContext(),OtherClass.class);
+        //this
+        //MainActirity.this
+        intent.putExtra("key",editText.getText().toString());
+        startActivity(intent);
     }
 }
