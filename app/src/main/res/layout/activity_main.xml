@@ -7,6 +7,13 @@
     android:orientation="vertical"
     android:weightSum="7"
     tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBar">
+
+    </android.support.v7.widget.Toolbar>
 
     <TextView
         android:id="@+id/output"
