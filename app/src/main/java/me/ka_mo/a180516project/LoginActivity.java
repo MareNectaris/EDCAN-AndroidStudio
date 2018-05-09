@@ -3,6 +3,7 @@ package me.ka_mo.a180516project;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -28,6 +29,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,7 +88,20 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                attemptLogin();
+                String email = ((EditText) findViewById(R.id.email)).getText().toString();
+                String loginEmail = "email@edcan.kr";
+                String password = ((EditText) findViewById(R.id.password)).getText().toString();
+                String loginPwd = "edcan";
+                if (email.equals(loginEmail) && password.equals(loginPwd)) {
+                    Intent Intent = new Intent(view.getContext(), calculatorActivity.class);
+                    view.getContext().startActivity(Intent);
+                }
+                else{
+                    Toast.makeText(LoginActivity.this,
+                            "Error logging in", Toast.LENGTH_LONG).show();
+                }
+
+
             }
         });
 
