@@ -1,0 +1,4 @@
+#Mon May 14 18:03:01 KST 2018
+base.0=C\:\\Users\\PC\\Desktop\\School\\Sunrin2018_Y1\\EDCAN\\180514\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
