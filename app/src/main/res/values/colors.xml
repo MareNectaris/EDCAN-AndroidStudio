@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00b8d4</color> <!--'EDCAN BLUE'-->
+    <color name="colorPrimaryDark">#455a64</color> <!--'EDCAN DARK BLUE'-->
+    <color name="colorAccent">#1DE9B6</color> <!-- Material Teal A400-->
+</resources>

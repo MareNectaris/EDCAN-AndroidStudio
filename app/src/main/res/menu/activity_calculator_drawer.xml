@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/openCalc"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/openTodo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="To-do List" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>
