@@ -6,11 +6,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/openCalc"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/calc_icon"
             android:title="Calculator" />
         <item
             android:id="@+id/openTodo"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/memo_icon"
             android:title="To-do List" />
     </group>
 

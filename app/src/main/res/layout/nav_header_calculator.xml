@@ -33,6 +33,6 @@
         android:id="@+id/calcmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EDCAN" />
+        android:text="Everyday Coding All Night" />
 
 </LinearLayout>
