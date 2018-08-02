@@ -18,12 +18,12 @@
 
 
 
-<img src="./screenshots/screenshot_main.PNG" width="500px">
+<img src="./screenshots/screenshot_main.png" width="500px">
 
 마감을 향해 달리느라 디자인에 대해 생각할 시간이 없었습니다. 다음에 똑같은 아이디어로 똑같은 애플리케이션을 제작할 기회가 있을지는 모르겠습니다만, 다음번에는 디자인에 더욱 신경을 쓰도록 하겠습니다.
 
 ###2018년식 스파게티 코드
 
-<img src="./screenshots/spaghetti_.PNG" width="500px">
+<img src="./screenshots/spaghetti_.png" width="500px">
 
 제정신이라면 이러한 코드는 나오지 않았겠죠..?
