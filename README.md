@@ -24,6 +24,6 @@
 
 ###2018년식 스파게티 코드
 
-<img src="./screenshots/spaghetti.PNG" width="500px">
+<img src="./screenshots/spaghetti_.PNG" width="500px">
 
 제정신이라면 이러한 코드는 나오지 않았겠죠..?
